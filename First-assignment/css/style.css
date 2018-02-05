@@ -1,0 +1,20 @@
+body{
+    font-family: arial, sans-serif; /* font-family is inheritable property */
+}
+
+header{
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+header a{
+    color: white;
+}
+
+nav li{
+    list-style-type: none;
+}
