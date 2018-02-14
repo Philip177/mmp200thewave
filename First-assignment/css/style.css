@@ -1,10 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: arial, sans-serif; /* font-family is inheritable property */
+    color: black;
+    background-color:azure
+}
+
+.container{
+    max-width: 1100px;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 0 auto; /* first value top/bottom, second value left/right */
+}
+
+#wrapper{
 }
 
 header{
-    background-color: antiquewhite;
+    background-color: chocolate;
     text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 img{
@@ -17,4 +36,27 @@ header a{
 
 nav li{
     list-style-type: none;
+    border-bottom: solid 1px black;
+    padding-bottom: 0.5em;
+}
+
+nav ul{
+    padding: 0;
+}
+
+p, h1, h2 ,h3, ul{
+    margin-bottom: 1em;
+}
+
+ul{
+    padding-left: 1em;
+}
+
+@media (min-width:480px){
+    nav li{
+        display: inline;
+        border: none;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
 }
