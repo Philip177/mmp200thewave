@@ -1,0 +1,14 @@
+body{
+    font-family: 'Roboto', sans-serif; 
+    font-size:18px;
+    margin:0;
+    padding:0;
+    background-color:burlywood;
+}
+.navbar-light, .bg-light{
+    background-color: cadetblue !important;
+    color: white !important;
+}
+.container{
+    background-color: cornsilk;
+}
